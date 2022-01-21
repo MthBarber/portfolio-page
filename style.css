@@ -21,12 +21,13 @@ body
     left: 50%;
     transform: translate(-50%,-50%);
     position: absolute;
+    font-family: 'Mochiy Pop P One', sans-serif;
 }
 .user-box img
 {
     border-radius: 50%;
     width: 250px;
-    border: 2px solid #6caed5;
+    border: 2px solid #E76F51;
 }
 .user-box h1
 {
@@ -69,10 +70,19 @@ body
 {
     padding-top: 100px;
     margin-bottom: -130px;
+    
 }
+
+.about h3 {
+    font-family: 'Mochiy Pop P One', sans-serif;
+    color:steelblue;
+}
+
+
 .profile-img
 {
     height: 400px;
+    margin-bottom: 2rem;
 }
 
 .nav-bar
@@ -83,7 +93,7 @@ body
 }
 .navbar
 {
-    background-color: #fff;
+    background-color: rgb(255, 255, 255);
 }
 .navbar-brand img
 {
@@ -124,7 +134,7 @@ body
     background: #000 !important;
 }
 
-/*-------------Resume--------------*/
+/*-------------experiences and skills--------------*/
 
 .resume
 {
@@ -135,6 +145,8 @@ body
 }
 .resume h3
 {
+    font-family: 'Mochiy Pop P One', sans-serif;
+    color:steelblue;
     margin-bottom: 50px;
 }
 .timeline
@@ -194,6 +206,8 @@ body
 }
 .services h1
 {
+    font-family: 'Mochiy Pop P One', sans-serif;
+    color:steelblue;
     margin-bottom: 15px;
 }
 
@@ -201,6 +215,29 @@ body
     text-decoration: none;
     color: #111;
 }
+
+#resume-link {
+    text-decoration: none;
+    color: #111;
+
+}
+.services-box a {
+    color: #000;
+    text-decoration: none;
+
+}
+
+.services-box a:hover{
+    text-decoration: none;
+}
+
+#linkedIn{
+    border: 2px solid #000;
+    padding: 4px;
+    border-radius: 15%;
+}
+
+
 .services-box
 {
     background: #f9f9f9;
@@ -209,10 +246,12 @@ body
     border-top-right-radius: 50px;
     border-bottom-left-radius: 50px;
 }
+
 .services-box .fa
 {
     margin: 0 10px;
     font-size: 20px;
+    text-decoration: none;
 }
 .services-box span
 {
@@ -236,7 +275,18 @@ body
     border-bottom-right-radius: 50px;
     transition: 1s;
 }
-.services-box:hover p
+
+.services-box:hover #linkedIn{
+    border: 2px solid #fff;
+}
+.services-box:hover span {
+    color: #fff;
+}
+
+.services-box:hover i {
+    color: #fff;    
+}
+.services-box:hover p 
 {
     color: #fff;
 }
@@ -250,6 +300,10 @@ body
     background-size: cover;
     background-attachment: fixed;
     color: #fff;
+}
+
+.contact h1 {
+    font-family: 'Mochiy Pop P One', sans-serif;
 }
 .contact .row
 {
